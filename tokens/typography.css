@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600&family=Inter:wght@400;500;600;700&display=swap');
+:root{
+--font-display:'Jost',sans-serif;
+--font-body:'Inter',sans-serif;
+
+--tracking-wordmark:.18em;
+--tracking-label:.1em;
+
+--text-display-xl:clamp(2.6rem,5vw,4.2rem);
+--text-display-lg:clamp(2rem,3.6vw,2.9rem);
+--text-display-md:1.7rem;
+--text-display-sm:1.3rem;
+--text-label:.72rem;
+--text-body-lg:1.05rem;
+--text-body:.95rem;
+--text-body-sm:.83rem;
+--text-caption:.72rem;
+--text-price:1rem;
+
+--lh-display:1.05; /* @kind other */
+--lh-body:1.5; /* @kind other */
+--lh-tight:1.2; /* @kind other */
+}
