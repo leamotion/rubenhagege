@@ -45,7 +45,7 @@ function App() {
   }
 
   return (
-    <div style={{ width: '100%', minHeight: '100vh', background: 'var(--surface-page)', position: 'relative' }}>
+    <div style={{ width: '100%', maxWidth: 480, minHeight: '100vh', margin: '0 auto', background: 'var(--surface-page)', position: 'relative' }}>
       {view === 'home' && (
         <Home onOrder={() => setView('date')} />
       )}
